@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Notícias G1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📰 Manchetes principais</h1>
+
+    <form action="/buscar" method="get">
+        <input type="text" name="q" placeholder="Buscar manchete..." required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <ul>
+        {% for noticia in noticias %}
+            <li>
+                <a href="{{ noticia.link }}" target="_blank">{{ noticia.title }}</a>
+            </li>
+        {% else %}
+            <li>Nenhuma manchete encontrada.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
