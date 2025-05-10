@@ -1,7 +1,6 @@
 # 📰 Notícias com Flask e Web Scraping
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.x-lightgrey)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 Este é um projeto web desenvolvido com **Flask** que realiza **web scraping** do portal de notícias [G1](https://g1.globo.com) e exibe as manchetes em uma interface simples e intuitiva. Além de visualizar as últimas manchetes, os usuários podem **filtrar as notícias** por palavras-chave usando a funcionalidade de busca.
 
@@ -20,7 +19,6 @@ Este é um projeto web desenvolvido com **Flask** que realiza **web scraping** d
 - [Contribuindo](#-contribuindo)
 - [Melhorias Futuras](#-melhorias-futuras)
 - [Autor](#-autor)
-- [Licença](#-licença)
 
 ---
 
@@ -48,9 +46,6 @@ Este projeto realiza as seguintes etapas:
 
 - **Python 3.8+**
 - **Flask** – Framework web leve para criar aplicações web em Python.
-- **BeautifulSoup** – Para realizar o scraping das manchetes.
-- **Requests** – Para fazer as requisições HTTP ao site do G1.
-- **Jinja2** – Sistema de templates usado pelo Flask para renderizar HTML.
 
 ---
 
@@ -138,11 +133,6 @@ Depois, abra um Pull Request 🚀
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%40sergioburlamaqui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sergioburlamaqui)
 
-
 ---
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ⭐️ Se você gostou do projeto, deixe uma estrela no GitHub e compartilhe!
