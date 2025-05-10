@@ -44,8 +44,11 @@ Este projeto realiza as seguintes etapas:
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Python 3.8+**
-- **Flask** – Framework web leve para criar aplicações web em Python.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
+</div>
 
 ---
 
